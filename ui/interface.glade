@@ -7,10 +7,13 @@
     <property name="default-height">700</property>
     <signal name="destroy" handler="gtk_main_quit" />
     <child>
-      <object class="GtkBox" id="content_box">
+      <object class="GtkBox" id="box1">
         <property name="orientation">vertical</property>
         <child>
-          <object class="GtkStack" id="stack"/>
+          <object class="GtkTextView" id="textview1">
+            <property name="editable">True</property>
+            <property name="cursor_visible">True</property>
+          </object>
         </child>
       </object>
     </child>
