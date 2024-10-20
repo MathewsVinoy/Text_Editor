@@ -8,12 +8,44 @@
     <signal name="destroy" handler="gtk_main_quit" />
     <child>
       <object class="GtkBox" id="box1">
-        <property name="orientation">vertical</property>
+        <property name="orientation">horizontal</property>
         <child>
-          <object class="GtkTextView" id="textview1">
-            <property name="editable">True</property>
-            <property name="cursor_visible">True</property>
+          <object class="GtkScrolledWindow" id="scrolledwindow1">
+            <property name="hscrollbar_policy">never</property>
+            <property name="vscrollbar_policy">automatic</property>
+            <child>
+              <object class="GtkTextView" id="textview_line_numbers">
+                <property name="editable">False</property>
+                <property name="cursor_visible">False</property>
+                <property name="left_margin">20</property>
+                <property name="right_margin">20</property>
+              </object>
+            </child>
           </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow" id="scrolledwindow2">
+            <property name="hscrollbar_policy">automatic</property>
+            <property name="vscrollbar_policy">automatic</property>
+            <child>
+              <object class="GtkTextView" id="textview1">
+                <property name="editable">True</property>
+                <property name="left_margin">10</property>
+                <property name="right_margin">5</property>
+                <property name="cursor_visible">True</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
         </child>
       </object>
     </child>
