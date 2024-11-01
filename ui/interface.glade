@@ -17,8 +17,8 @@
               <object class="GtkTextView" id="textview_line_numbers">
                 <property name="editable">False</property>
                 <property name="cursor_visible">False</property>
-                <property name="left_margin">20</property>
-                <property name="right_margin">20</property>
+                <property name="left_margin">10</property>
+                <property name="right_margin">10</property>
               </object>
             </child>
           </object>
@@ -35,8 +35,6 @@
             <child>
               <object class="GtkTextView" id="textview1">
                 <property name="editable">True</property>
-                <property name="left_margin">10</property>
-                <property name="right_margin">5</property>
                 <property name="cursor_visible">True</property>
               </object>
             </child>

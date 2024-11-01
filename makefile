@@ -5,14 +5,17 @@ INCLUDES = -Iwindow
 
 all: app
 
-app: main.o window/mainwindow.o
-	$(CC) -o app main.o window/mainwindow.o $(LIBS)
+app: main.o window/mainwindow.o window/updateLine.o
+	$(CC) -o app main.o window/mainwindow.o window/updateLine.o $(LIBS)
 
 main.o: main.c
 	$(CC) $(CFLAGS) $(INCLUDES) -c main.c -o main.o
 
 window/mainwindow.o: window/mainwindow.c
 	$(CC) $(CFLAGS) $(INCLUDES) -c window/mainwindow.c -o window/mainwindow.o
+
+window/updateLine.o: window/updateLine.c
+	$(CC) $(CFLAGS) $(INCLUDES) -c window/updateLine.c -o window/updateLine.o
 
 clean:
 	rm -f *.o window/*.o app
