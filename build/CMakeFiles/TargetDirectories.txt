@@ -1,0 +1,3 @@
+/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles/MyTextEditor.dir
+/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles/edit_cache.dir
+/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles/rebuild_cache.dir
