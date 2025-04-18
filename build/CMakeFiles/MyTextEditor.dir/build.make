@@ -108,7 +108,7 @@ MyTextEditor_EXTERNAL_OBJECTS =
 MyTextEditor: CMakeFiles/MyTextEditor.dir/src/main.cpp.o
 MyTextEditor: CMakeFiles/MyTextEditor.dir/src/window.cpp.o
 MyTextEditor: CMakeFiles/MyTextEditor.dir/build.make
-MyTextEditor: /usr/lib/x86_64-linux-gnu/libSDL2.so
+MyTextEditor: /usr/lib/x86_64-linux-gnu/libGL.so
 MyTextEditor: CMakeFiles/MyTextEditor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyTextEditor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyTextEditor.dir/link.txt --verbose=$(VERBOSE)

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/MyTextEditor.dir/src/main.cpp.o CMakeFiles/MyTextEditor.dir/src/window.cpp.o -o MyTextEditor  /usr/lib/x86_64-linux-gnu/libSDL2.so 
+/usr/bin/c++ CMakeFiles/MyTextEditor.dir/src/main.cpp.o CMakeFiles/MyTextEditor.dir/src/window.cpp.o -o MyTextEditor  -lglfw /usr/lib/x86_64-linux-gnu/libGL.so 
