@@ -129,6 +129,30 @@ MyTextEditor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/build
 .PHONY : MyTextEditor/fast
 
+src/keyHandling.o: src/keyHandling.cpp.o
+.PHONY : src/keyHandling.o
+
+# target to build an object file
+src/keyHandling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o
+.PHONY : src/keyHandling.cpp.o
+
+src/keyHandling.i: src/keyHandling.cpp.i
+.PHONY : src/keyHandling.i
+
+# target to preprocess a source file
+src/keyHandling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.i
+.PHONY : src/keyHandling.cpp.i
+
+src/keyHandling.s: src/keyHandling.cpp.s
+.PHONY : src/keyHandling.s
+
+# target to generate assembly for a file
+src/keyHandling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.s
+.PHONY : src/keyHandling.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,30 +177,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/window.o: src/window.cpp.o
-.PHONY : src/window.o
-
-# target to build an object file
-src/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/window.cpp.o
-.PHONY : src/window.cpp.o
-
-src/window.i: src/window.cpp.i
-.PHONY : src/window.i
-
-# target to preprocess a source file
-src/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/window.cpp.i
-.PHONY : src/window.cpp.i
-
-src/window.s: src/window.cpp.s
-.PHONY : src/window.s
-
-# target to generate assembly for a file
-src/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/window.cpp.s
-.PHONY : src/window.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyTextEditor"
+	@echo "... src/keyHandling.o"
+	@echo "... src/keyHandling.i"
+	@echo "... src/keyHandling.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/window.o"
-	@echo "... src/window.i"
-	@echo "... src/window.s"
 .PHONY : help
 
 

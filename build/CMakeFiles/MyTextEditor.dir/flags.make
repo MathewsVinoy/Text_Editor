@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/include
+CXX_INCLUDES = -I/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/include -I/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include
 
 CXX_FLAGS = -std=gnu++17
 
