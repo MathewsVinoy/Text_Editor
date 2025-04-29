@@ -33,7 +33,8 @@
 # Executables
 *.exe
 *.out
-*.app
+*.bin
+*.run
 
 ### CMake ###
 CMakeLists.txt.user
