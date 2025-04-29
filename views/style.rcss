@@ -1,0 +1,26 @@
+/* Set a default font for body and all text elements */
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: "Arial", sans-serif; /* Use Arial, or any sans-serif font */
+    font-size: 16px;
+}
+
+/* Additional styles for h1, p, and button */
+h1 {
+    color: #ff9800;
+    font-family: "Arial", sans-serif; /* Ensuring h1 uses Arial */
+}
+
+p {
+    font-family: "Arial", sans-serif; /* Ensuring paragraphs use Arial */
+}
+
+button {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: "Arial", sans-serif; /* Ensuring buttons use Arial */
+}

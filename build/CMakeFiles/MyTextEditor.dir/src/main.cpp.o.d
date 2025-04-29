@@ -1,9 +1,8 @@
 CMakeFiles/MyTextEditor.dir/src/main.cpp.o: \
  /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/src/main.cpp \
- /usr/include/stdc-predef.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Core.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Types.h \
+ /usr/include/stdc-predef.h /usr/local/include/Rocket/Core.h \
+ /usr/local/include/Rocket/Core/Core.h \
+ /usr/local/include/Rocket/Core/Types.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
@@ -140,126 +139,120 @@ CMakeFiles/MyTextEditor.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Platform.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Debug.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Header.h \
- /usr/include/inttypes.h \
+ /usr/local/include/Rocket/Core/Platform.h \
+ /usr/local/include/Rocket/Core/Debug.h \
+ /usr/local/include/Rocket/Core/Header.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Colour.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Colour.inl \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Vector2.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Math.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Vector2.inl \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/String.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/StringBase.h \
- /usr/include/c++/13/stdlib.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/StringBase.inl \
- /usr/include/string.h /usr/include/strings.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Box.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Context.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ReferenceCountable.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ElementReference.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Input.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ScriptInterface.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ContextInstancer.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Decorator.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Texture.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/DecoratorInstancer.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/PropertyDictionary.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Property.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Variant.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/TypeConverter.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Log.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Stream.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/URL.h \
- /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
+ /usr/local/include/Rocket/Core/Colour.h \
+ /usr/local/include/Rocket/Core/Colour.inl \
+ /usr/local/include/Rocket/Core/Vector2.h \
+ /usr/local/include/Rocket/Core/Math.h \
+ /usr/local/include/Rocket/Core/Vector2.inl \
+ /usr/local/include/Rocket/Core/String.h \
+ /usr/local/include/Rocket/Core/StringBase.h /usr/include/c++/13/stdlib.h \
+ /usr/local/include/Rocket/Core/StringBase.inl /usr/include/string.h \
+ /usr/include/strings.h /usr/local/include/Rocket/Core/Box.h \
+ /usr/local/include/Rocket/Core/Context.h \
+ /usr/local/include/Rocket/Core/ReferenceCountable.h \
+ /usr/local/include/Rocket/Core/ElementReference.h \
+ /usr/local/include/Rocket/Core/Input.h \
+ /usr/local/include/Rocket/Core/ScriptInterface.h \
+ /usr/local/include/Rocket/Core/ContextInstancer.h \
+ /usr/local/include/Rocket/Core/Decorator.h \
+ /usr/local/include/Rocket/Core/Texture.h \
+ /usr/local/include/Rocket/Core/DecoratorInstancer.h \
+ /usr/local/include/Rocket/Core/PropertyDictionary.h \
+ /usr/local/include/Rocket/Core/Property.h \
+ /usr/local/include/Rocket/Core/Variant.h \
+ /usr/local/include/Rocket/Core/TypeConverter.h \
+ /usr/local/include/Rocket/Core/Log.h \
+ /usr/local/include/Rocket/Core/Stream.h \
+ /usr/local/include/Rocket/Core/URL.h /usr/include/c++/13/list \
+ /usr/include/c++/13/bits/stl_list.h \
  /usr/include/c++/13/bits/allocated_ptr.h \
  /usr/include/c++/13/bits/list.tcc \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/StringUtilities.h \
+ /usr/local/include/Rocket/Core/StringUtilities.h \
  /usr/include/c++/13/typeinfo \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/TypeConverter.inl \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Variant.inl \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/PropertySpecification.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Element.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Event.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Dictionary.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Dictionary.inl \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Element.inl \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/PropertyDefinition.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/PropertyParser.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ElementDocument.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ElementInstancer.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/XMLParser.h \
- /usr/include/c++/13/stack /usr/include/c++/13/deque \
- /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
- /usr/include/c++/13/bits/stl_stack.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/BaseXMLParser.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ElementInstancerGeneric.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ElementInstancerGeneric.inl \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ElementScroll.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/EventListener.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ElementText.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/WString.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/ElementUtilities.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/EventInstancer.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/EventListenerInstancer.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Factory.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/FileInterface.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Font.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/FontDatabase.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/FontProvider.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/StringUtilities.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Font.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Header.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/FontEffect.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/FontGlyph.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Geometry.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Vertex.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/GeometryUtilities.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/Plugin.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/RenderInterface.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/StyleSheet.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/StyleSheetKeywords.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/StyleSheetSpecification.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/SystemInterface.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Core/XMLNodeHandler.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/Controls.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/DataFormatter.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/../Core/ScriptInterface.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/../Core/String.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/Header.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/../Core/Platform.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementDataGrid.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/DataSourceListener.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/../Core/Element.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementDataGridCell.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/../Core/EventListener.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementDataGridExpandButton.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementDataGridRow.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/DataQuery.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/../Core/TypeConverter.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/../Core/Log.h \
- /usr/include/c++/13/queue /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/stl_queue.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementForm.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementFormControl.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementFormControlDataSelect.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementFormControlSelect.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/SelectOption.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementFormControlInput.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementFormControlTextArea.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Controls/ElementTabSet.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Debugger.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Debugger/Debugger.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Debugger/../Core/Types.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Debugger/Header.h \
- /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/libRocket/Include/Rocket/Debugger/../Core/Platform.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
- /usr/include/c++/13/ios /usr/include/c++/13/exception \
- /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/local/include/Rocket/Core/TypeConverter.inl \
+ /usr/local/include/Rocket/Core/Variant.inl \
+ /usr/local/include/Rocket/Core/PropertySpecification.h \
+ /usr/local/include/Rocket/Core/Element.h \
+ /usr/local/include/Rocket/Core/Event.h \
+ /usr/local/include/Rocket/Core/Dictionary.h \
+ /usr/local/include/Rocket/Core/Dictionary.inl \
+ /usr/local/include/Rocket/Core/Element.inl \
+ /usr/local/include/Rocket/Core/PropertyDefinition.h \
+ /usr/local/include/Rocket/Core/PropertyParser.h \
+ /usr/local/include/Rocket/Core/ElementDocument.h \
+ /usr/local/include/Rocket/Core/ElementInstancer.h \
+ /usr/local/include/Rocket/Core/XMLParser.h /usr/include/c++/13/stack \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/bits/stl_stack.h \
+ /usr/local/include/Rocket/Core/BaseXMLParser.h \
+ /usr/local/include/Rocket/Core/ElementInstancerGeneric.h \
+ /usr/local/include/Rocket/Core/ElementInstancerGeneric.inl \
+ /usr/local/include/Rocket/Core/ElementScroll.h \
+ /usr/local/include/Rocket/Core/EventListener.h \
+ /usr/local/include/Rocket/Core/ElementText.h \
+ /usr/local/include/Rocket/Core/WString.h \
+ /usr/local/include/Rocket/Core/ElementUtilities.h \
+ /usr/local/include/Rocket/Core/EventInstancer.h \
+ /usr/local/include/Rocket/Core/EventListenerInstancer.h \
+ /usr/local/include/Rocket/Core/Factory.h \
+ /usr/local/include/Rocket/Core/FileInterface.h \
+ /usr/local/include/Rocket/Core/Font.h \
+ /usr/local/include/Rocket/Core/FontDatabase.h \
+ /usr/local/include/Rocket/Core/FontProvider.h \
+ /usr/local/include/Rocket/Core/StringUtilities.h \
+ /usr/local/include/Rocket/Core/Font.h \
+ /usr/local/include/Rocket/Core/Header.h \
+ /usr/local/include/Rocket/Core/FontEffect.h \
+ /usr/local/include/Rocket/Core/FontGlyph.h \
+ /usr/local/include/Rocket/Core/Geometry.h \
+ /usr/local/include/Rocket/Core/Vertex.h \
+ /usr/local/include/Rocket/Core/GeometryUtilities.h \
+ /usr/local/include/Rocket/Core/Plugin.h \
+ /usr/local/include/Rocket/Core/RenderInterface.h \
+ /usr/local/include/Rocket/Core/StyleSheet.h \
+ /usr/local/include/Rocket/Core/StyleSheetKeywords.h \
+ /usr/local/include/Rocket/Core/StyleSheetSpecification.h \
+ /usr/local/include/Rocket/Core/SystemInterface.h \
+ /usr/local/include/Rocket/Core/XMLNodeHandler.h \
+ /usr/local/include/Rocket/Controls.h \
+ /usr/local/include/Rocket/Controls/Controls.h \
+ /usr/local/include/Rocket/Controls/DataFormatter.h \
+ /usr/local/include/Rocket/Core/ScriptInterface.h \
+ /usr/local/include/Rocket/Core/String.h \
+ /usr/local/include/Rocket/Controls/Header.h \
+ /usr/local/include/Rocket/Core/Platform.h \
+ /usr/local/include/Rocket/Controls/ElementDataGrid.h \
+ /usr/local/include/Rocket/Controls/DataSourceListener.h \
+ /usr/local/include/Rocket/Core/Element.h \
+ /usr/local/include/Rocket/Controls/ElementDataGridCell.h \
+ /usr/local/include/Rocket/Core/EventListener.h \
+ /usr/local/include/Rocket/Controls/ElementDataGridExpandButton.h \
+ /usr/local/include/Rocket/Controls/ElementDataGridRow.h \
+ /usr/local/include/Rocket/Controls/DataQuery.h \
+ /usr/local/include/Rocket/Core/TypeConverter.h \
+ /usr/local/include/Rocket/Core/Log.h /usr/include/c++/13/queue \
+ /usr/include/c++/13/bits/stl_heap.h /usr/include/c++/13/bits/stl_queue.h \
+ /usr/local/include/Rocket/Controls/ElementForm.h \
+ /usr/local/include/Rocket/Controls/ElementFormControl.h \
+ /usr/local/include/Rocket/Controls/ElementFormControlDataSelect.h \
+ /usr/local/include/Rocket/Controls/ElementFormControlSelect.h \
+ /usr/local/include/Rocket/Controls/SelectOption.h \
+ /usr/local/include/Rocket/Controls/ElementFormControlInput.h \
+ /usr/local/include/Rocket/Controls/ElementFormControlTextArea.h \
+ /usr/local/include/Rocket/Controls/ElementTabSet.h \
+ /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/include/MyRenderInterface.h \
+ /usr/local/include/Rocket/Core/RenderInterface.h \
+ /usr/local/include/Rocket/Core/SystemInterface.h /usr/include/GL/glew.h \
+ /usr/include/c++/13/cstdint /usr/include/GL/glu.h /usr/include/GL/gl.h \
+ /usr/include/GLFW/glfw3.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/ostream /usr/include/c++/13/ios \
+ /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
  /usr/include/c++/13/bits/nested_exception.h \
  /usr/include/c++/13/bits/ios_base.h /usr/include/c++/13/ext/atomicity.h \

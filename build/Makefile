@@ -129,6 +129,30 @@ MyTextEditor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/build
 .PHONY : MyTextEditor/fast
 
+src/MyRenderInterface.o: src/MyRenderInterface.cpp.o
+.PHONY : src/MyRenderInterface.o
+
+# target to build an object file
+src/MyRenderInterface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o
+.PHONY : src/MyRenderInterface.cpp.o
+
+src/MyRenderInterface.i: src/MyRenderInterface.cpp.i
+.PHONY : src/MyRenderInterface.i
+
+# target to preprocess a source file
+src/MyRenderInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.i
+.PHONY : src/MyRenderInterface.cpp.i
+
+src/MyRenderInterface.s: src/MyRenderInterface.cpp.s
+.PHONY : src/MyRenderInterface.s
+
+# target to generate assembly for a file
+src/MyRenderInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTextEditor.dir/build.make CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.s
+.PHONY : src/MyRenderInterface.cpp.s
+
 src/keyHandling.o: src/keyHandling.cpp.o
 .PHONY : src/keyHandling.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyTextEditor"
+	@echo "... src/MyRenderInterface.o"
+	@echo "... src/MyRenderInterface.i"
+	@echo "... src/MyRenderInterface.s"
 	@echo "... src/keyHandling.o"
 	@echo "... src/keyHandling.i"
 	@echo "... src/keyHandling.s"

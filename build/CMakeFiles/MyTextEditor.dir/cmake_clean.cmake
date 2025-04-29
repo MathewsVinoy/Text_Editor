@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o"
+  "CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o.d"
   "CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o"
   "CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o.d"
   "CMakeFiles/MyTextEditor.dir/src/main.cpp.o"

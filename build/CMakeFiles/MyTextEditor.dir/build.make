@@ -69,10 +69,24 @@ include CMakeFiles/MyTextEditor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyTextEditor.dir/flags.make
 
+CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o: CMakeFiles/MyTextEditor.dir/flags.make
+CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o: /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/src/MyRenderInterface.cpp
+CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o: CMakeFiles/MyTextEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o -MF CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o.d -o CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o -c /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/src/MyRenderInterface.cpp
+
+CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/src/MyRenderInterface.cpp > CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.i
+
+CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/src/MyRenderInterface.cpp -o CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.s
+
 CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o: CMakeFiles/MyTextEditor.dir/flags.make
 CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o: /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/src/keyHandling.cpp
 CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o: CMakeFiles/MyTextEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o -MF CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o.d -o CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o -c /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/src/keyHandling.cpp
 
 CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.s: cmake_force
 CMakeFiles/MyTextEditor.dir/src/main.cpp.o: CMakeFiles/MyTextEditor.dir/flags.make
 CMakeFiles/MyTextEditor.dir/src/main.cpp.o: /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/src/main.cpp
 CMakeFiles/MyTextEditor.dir/src/main.cpp.o: CMakeFiles/MyTextEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyTextEditor.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyTextEditor.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTextEditor.dir/src/main.cpp.o -MF CMakeFiles/MyTextEditor.dir/src/main.cpp.o.d -o CMakeFiles/MyTextEditor.dir/src/main.cpp.o -c /media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/src/main.cpp
 
 CMakeFiles/MyTextEditor.dir/src/main.cpp.i: cmake_force
@@ -99,18 +113,22 @@ CMakeFiles/MyTextEditor.dir/src/main.cpp.s: cmake_force
 
 # Object files for target MyTextEditor
 MyTextEditor_OBJECTS = \
+"CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o" \
 "CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o" \
 "CMakeFiles/MyTextEditor.dir/src/main.cpp.o"
 
 # External object files for target MyTextEditor
 MyTextEditor_EXTERNAL_OBJECTS =
 
+MyTextEditor: CMakeFiles/MyTextEditor.dir/src/MyRenderInterface.cpp.o
 MyTextEditor: CMakeFiles/MyTextEditor.dir/src/keyHandling.cpp.o
 MyTextEditor: CMakeFiles/MyTextEditor.dir/src/main.cpp.o
 MyTextEditor: CMakeFiles/MyTextEditor.dir/build.make
+MyTextEditor: /usr/lib/x86_64-linux-gnu/libGLEW.so
 MyTextEditor: /usr/lib/x86_64-linux-gnu/libGL.so
+MyTextEditor: /usr/lib/x86_64-linux-gnu/libGLU.so
 MyTextEditor: CMakeFiles/MyTextEditor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyTextEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/mathewsvinoy/820831ee-706c-42e4-8979-f6876adb34d6/dev/Text_Editor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MyTextEditor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyTextEditor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
