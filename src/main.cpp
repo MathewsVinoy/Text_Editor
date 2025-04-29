@@ -1,56 +1,49 @@
 #include "webview/webview.h"
-#include "iostream"
+#include <iostream>
+
 int main()
 {
-    // HTML page with a simple contentEditable div
     const char *html = R"""(
-    <!DOCTYPE html>
-    <html>
+  <!DOCTYPE html>
+  <html>
     <head>
-      <meta charset='UTF-8'>
-      <title>Mini Text Editor</title>
+      <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
       <style>
-        body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
-        #editor {
-          border: 1px solid #ccc;
-          padding: 10px;
-          background: white;
+        #editor-container {
           height: 300px;
-          overflow-y: auto;
-        }
-        button {
-          margin-top: 10px;
-          padding: 10px;
+          border: 1px solid #ccc;
+          margin-bottom: 10px;
         }
       </style>
     </head>
     <body>
-      <h2>HTML Text Editor</h2>
-      <div id="editor" contenteditable="true">Edit this text...</div>
-      <br/>
-      <button onclick="save()" > Save Content</ button>
+      <div id="editor-container"></div>
+      <button onclick="saveContent()">Save</button>
 
-                       <script>
-                           function save()
-    {
-        const content = document.getElementById('editor').innerHTML;
-        window.external.invoke(content);
-    }
+      <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+      <script>
+        var quill = new Quill('#editor-container', {
+          theme: 'snow'
+        });
+
+        function saveContent() {
+          const content = quill.root.innerHTML;
+          window.external.invoke(content);
+        }
       </script>
     </body>
-    </html>
+  </html>
   )""";
 
-    // Create the webview window
     webview::webview w(true, nullptr);
-    w.set_title("C++ HTML Text Editor");
-    w.set_size(600, 500, WEBVIEW_HINT_NONE);
+    w.set_title("Webview Quill Text Editor");
+    w.set_size(800, 600, WEBVIEW_HINT_NONE);
 
-    // Bind the callback: JS sends content → C++
-    w.bind("external", [](const std::string &content)
+    // Bind JS -> C++: receive content from editor
+    w.bind("save", [](std::string content)
            {
-    printf("Saved content:\n%s\n", content.c_str());
-    return ""; });
+    std::cout << "Received from JS:\n" << content << std::endl;
+    return std::string{}; });
 
     w.set_html(html);
     w.run();
