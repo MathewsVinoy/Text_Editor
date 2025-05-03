@@ -447,7 +447,7 @@ int main()
 
         } catch (const std::exception& e) {
             std::cerr << "Error processing content: " << e.what() << std::endl;
-            return std::string("{}");
+            return std::string("{Error}");
         } });
 
   w.set_html(html);
