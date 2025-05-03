@@ -5,28 +5,28 @@
 
 std::string readFile(const std::string &filePath)
 {
-    std::ifstream file(filePath);
-    if (!file.is_open())
-    {
-        return "";
-    }
-    std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
-    return content;
+  std::ifstream file(filePath);
+  if (!file.is_open())
+  {
+    return "";
+  }
+  std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+  return content;
 }
 
 void writeFile(const std::string &filePath, const std::string &content)
 {
-    std::ofstream file(filePath);
-    if (file.is_open())
-    {
-        file << content;
-        file.close();
-    }
+  std::ofstream file(filePath);
+  if (file.is_open())
+  {
+    file << content;
+    file.close();
+  }
 }
 
 int main()
 {
-    const char *html = R"""(
+  const char *html = R"""(
     <!DOCTYPE html>
     <html>
     <head>
@@ -437,20 +437,20 @@ int main()
     </html>
     )""";
 
-    webview::webview w(true, nullptr);
-    w.set_title("VS Code Clone");
-    w.set_size(1000, 700, WEBVIEW_HINT_NONE);
-    w.bind("external", [](const std::string &invoke_arg)
-           {
+  webview::webview w(true, nullptr);
+  w.set_title("VS Code Clone");
+  w.set_size(1000, 700, WEBVIEW_HINT_NONE);
+  w.bind("external", [](const std::string &invoke_arg)
+         {
         try {
-            return std::string("{}");
+            return std::string("Started");
 
         } catch (const std::exception& e) {
             std::cerr << "Error processing content: " << e.what() << std::endl;
             return std::string("{}");
         } });
 
-    w.set_html(html);
-    w.run();
-    return 0;
+  w.set_html(html);
+  w.run();
+  return 0;
 }
