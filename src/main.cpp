@@ -443,8 +443,8 @@ int main()
   w.bind("external", [](const std::string &invoke_arg)
          {
         try {
+            std::cout << "Received: " << invoke_arg << std::endl;
             return std::string("Started");
-
         } catch (const std::exception& e) {
             std::cerr << "Error processing content: " << e.what() << std::endl;
             return std::string("{Error}");
